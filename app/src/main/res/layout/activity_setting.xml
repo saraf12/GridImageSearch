@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="codepath.com.gridimagesearch.activities.SettingActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Image_size"
+        android:id="@+id/Ivtextview"
+        android:layout_alignParentLeft="true"/>
+
+    <Spinner
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ivspinner"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/Ivtextview" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Color_Filter"
+        android:id="@+id/Ivtextview2"
+        android:layout_alignBottom="@+id/Ivtextview"/>
+
+    <Spinner
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ivspinner2"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/Ivtextview2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Image_Type"
+        android:id="@+id/Ivtextview3"
+        android:layout_alignParentLeft="true" />
+
+    <Spinner
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ivspinner3"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/Ivtextview3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Site_Filter"
+        android:id="@+id/Ivtextview4"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IvText"
+        android:layout_alignTop="@+id/Idsava" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/Idsava"
+        android:layout_alignBottom="@+id/IvText"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
