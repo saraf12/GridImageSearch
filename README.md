@@ -1,2 +1,2 @@
 # GridImageSearch
-<img="GirdImageSearch.gif" alt="GIF Walkthrough" />
+<img="GridImageSearch.gif" alt="GIF Walkthrough" />
